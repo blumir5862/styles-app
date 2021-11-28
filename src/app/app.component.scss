@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10,
+.col-md-11 {
+    padding-right: 0.75rem !important;
+    padding-left: 0.75rem !important;
+	
+}
+.row>* {
+        padding-right: calc(var(--bs-gutter-x) * .0);
+    padding-left: calc(var(--bs-gutter-x) * .0);
+}
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+	padding-right: 0px !important;
+    padding-left: 0px !important;
+	
+}
+.container  .col-md-12 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+body{
+	direction: rtl;
+	
+}
