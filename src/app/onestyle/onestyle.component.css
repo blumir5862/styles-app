@@ -395,7 +395,7 @@ margin-top: 0.5rem;
 	padding: 5px 30px 5px 30px;
 	text-decoration: none;
 	margin-top: 2rem;
-
+  border: none;
 }
 @media screen and (max-width: 1491px) {
   .big_box{
@@ -417,6 +417,37 @@ margin-top: 0.5rem;
   .onestyle{
     background-image: url("/assets/images/md_one.png");
   }
+}
+/* הודעת הצלחה */
+.close{
+  border: none;
+  color: #007178;
+  font-size: 40px;
+  background-color: #FEFEF1;
+  line-height: 0.5;
+}
+
+.modal-header{
+  background-color: #FEFEF1;
+  border: none;
+}
+.modal-body{
+  background-color: #FEFEF1;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  color: #007178;
+  padding-bottom: 2rem;
+}
+.lottie{
+  background-image:url("/assets/images/lottie_background_styleone.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.modal.show .modal-dialog{
+  padding-top: 10rem;
 }
 
 
