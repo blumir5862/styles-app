@@ -1,12 +1,12 @@
 <html>
     <head>
-        <title>סגנון ביבימאמ </title>
+        <title>סגנון רהיטים </title>
     </head>
     <body>
         <div class="container-fluid twostyle">
             <div class="row ">
                 <div class=" col-md-1"></div>
-                <div class=" col-md-5">
+                <div class=" col-md-7 col-xl-5 col-lg-6">
                     <div class="logo">
                     <img src="/assets/images/two_logo.png" alt="logo">
                   <h1>ההגרלה הגדולה מבית FURNITURE</h1>
@@ -35,7 +35,7 @@
                     <div class="box_dropdown">
                         <div class="sec-center"> 	
                             <input class="dropdown" type="checkbox" id="dropdown" name="dropdown"/>
-                            <label class="for-dropdown" for="dropdown">סוג המזון שלו היום
+                            <label class="for-dropdown" for="dropdown">על איזה רהיט אתם חולמים?
                                 <i class=" left uil uil-arrow-down">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="11.435" viewBox="0 0 20 11.435">
                                       <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M16.191,19.235l7.562-7.568a1.423,1.423,0,0,1,2.019,0,1.441,1.441,0,0,1,0,2.025L17.2,22.265a1.427,1.427,0,0,1-1.971.042L6.6,13.7a1.429,1.429,0,1,1,2.019-2.025Z" transform="translate(-6.188 -11.246)" fill="#007178"/>
@@ -44,21 +44,43 @@
                             </label>
                             <div class="section-dropdown"> 
                                 <div class="uil uil-arrow-right">
-                                   <option value="הנקה מלאה"> הנקה מלאה </option>
+                                   <option value="כורסא"> כורסא </option>
                                    <hr>
-                                   <option value="תמל ">תמ"ל</option>
+                                   <option value="שולחן סלוני ">שולחן סלוני</option>
                                    <hr>
-                                   <option value="שילוב הנקה ותמל ">שילוב הנקה ותמ"ל</option>
+                                   <option value="6 סאות מטבח ">6 כסאות מטבח</option>
                                    <hr>
-                                   <option value="אחר">אחר</option>
+                                   <option value="6 כסאות סלון">6 כסאות סלון</option>
                                    </div>
                             </div>
                         </div>
                     </div>
                 </form>
+                <div class="box_button">
+                   <button class="button_style_two" (click)="open(mymodal)">אני רוצה לזכות ברהיט</button>
+                </div> 
             </div>
-                <div class=" col-md-6"></div>
+                <div class=" col-md-4 col-xl-6 cl-lg-5"></div>
             </div>
         </div>
     </body>
+    <ng-template #mymodal let-modal>
+        <div class="modal-header">
+           <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+             <span aria-hidden="true">×</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="lottie">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_ttwzeaeg.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+</div>
+           
+            !הטופס נשלח בהצלחה
+            <br>
+            (:נכנסת להגרלה
+            <br>
+            הודעה תשלח לזוכה
+        </div>
+    </ng-template>
 </html>

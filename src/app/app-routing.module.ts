@@ -3,10 +3,14 @@ import { RouterModule, Routes } from '@angular/router';
 // import { NoneComponent } from './none/none.component';
 import { onestyleComponent } from './onestyle/onestyle.component';
 import { twostyleComponent } from './twostyle/twostyle.component';
+import { threestyleComponent } from './threestyle/threestyle.component';
+import { fourstyleComponent } from './fourstyle/fourstyle.component';
 
 const routes: Routes = [
   { path: 'onestyle', component: onestyleComponent, },
   { path: 'twostyle', component: twostyleComponent, },
+  { path: 'threestyle', component: threestyleComponent, },
+  { path: 'fourstyle', component: fourstyleComponent, },
 // { path: '**', component: NoneComponent }
 ];
 
