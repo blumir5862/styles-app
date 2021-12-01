@@ -11,7 +11,7 @@
                        <img src="/assets/images/four_logo.png" alt="logo">
                     </div>
                    </div>
-                   <div class="col-md-10">
+                   <div class="col-md-10 col-xl-8">
                   <h1>יש לכם ארוע בקרוב?
                       <br>
                       רוצים לשדרג אותו בכמה רמות?</h1>
@@ -35,14 +35,16 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="nema_tel">
-                        <!-- <label for="email">מייל:</label>  -->
-                        <input type="email" id="email" name="email" value="מייל:">
+                    <div class="nema_tel date_flowers">
+                        <label for="date">תאריך הארוע:</label> 
+                        <br>
+                        <input type="date" id="date" name="date" value="תאריך הארוע:">
                     </div>
-                    <div class="nema_tel">
+                    <div class="nema_tel date_flowers">
+                        <label for="date">סוג פרחים:</label> 
                         <div class="sec-center"> 	
                             <input class="dropdown" type="checkbox" id="dropdown" name="dropdown"/>
-                            <label class="for-dropdown" for="dropdown">בחרו יעד שמגרה אותכם
+                            <label class="for-dropdown" for="dropdown">איזה סוגי פרחים אתם אוהבים?
                                 <i class=" left uil uil-arrow-down">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="11.435" viewBox="0 0 20 11.435">
                                       <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M16.191,19.235l7.562-7.568a1.423,1.423,0,0,1,2.019,0,1.441,1.441,0,0,1,0,2.025L17.2,22.265a1.427,1.427,0,0,1-1.971.042L6.6,13.7a1.429,1.429,0,1,1,2.019-2.025Z" transform="translate(-6.188 -11.246)" fill="#007178"/>
@@ -51,53 +53,87 @@
                             </label>
                             <div class="section-dropdown"> 
                                 <div class="uil uil-arrow-right">
-                                   <option value="וינא">  וינא </option>
-                                   <!-- <hr> -->
-                                   <option value="צרפת ">צרפת</option>
-                                   <!-- <hr> -->
-                                   <option value="יוון ">יוון</option>
-                                   <!-- <hr> -->
-                                   <!-- <option value="אחר">אחר</option> -->
-                                   <div class="else">
-                                   <input type="text" id="else" name="else" value="אחר:">
-                                   </div>
+                                   <option value="פרחים חיים">  פרחים חיים </option>
+                                   <hr>
+                                   <option value="פרחים מלאכותיים ">פרחים מלאכותיים</option>
+                                   <hr>
+                                   <option value="שילוב של פרחים חיים ומלאכותיים ">שילוב של פרחים חיים ומלאכותיים</option>
+                                   
+                                   
                                    </div>
                             </div>
                         </div>
                     </div>
                 </div> 
                 <div class="row">
-                    
+                    <div class="column">
                                 <div class="checkbox">
-                                    <label class="title_che" for="ybaby_age">באיזה תמ"ל את משתמשת?</label>
+                                    <label class="title_che" for="event">באיזה צבעים אתם רוצים לפאר את הארוע?</label>
+                                    <div class="input_label">
                                         <input type="checkbox" class="input_checkbox_style_two" >
-                                        <label > מטרנה צמחי</label><br>
+                                        <label > אדום</label>
+                                    </div>
+                                    <div class="input_label">
                                         <input type="checkbox" class="input_checkbox_style_two" >
-                                        <label > מטרנה מהדרין</label><br>
+                                        <label > ירוק</label>
+                                    </div>
+                                    <div class="input_label">
                                         <input type="checkbox" class="input_checkbox_style_two" >
-                                        <label > מטרנה שלבים</label><br>
+                                        <label > לבן</label>
+                                    </div>
+                                    <div class="input_label">
                                         <input type="checkbox" class="input_checkbox_style_two" >
-                                        <label > דיסת דגנים</label><br>
+                                        <label > צהוב</label>
+                                    </div>
+                                    <div class="input_label">
                                         <input type="checkbox" class="input_checkbox_style_two" >
-                                        <label > סימילאק</label>
+                                        <label > ורוד</label>
+                                    </div>
+                                    <div class="input_label">
+                                        <input type="checkbox" class="input_checkbox_style_two" >
+                                        <div class="else">
+                                            <label  for="yes">אחר:</label>
+                                            <input type="text" id="else" name="else" >
+                                            </div>
+                                    </div>
                                  </div>
+                    </div>
+                    <div class="column">
                                  <div class="checkbox">
-                                    <label for="ybaby_age">באיזה תמ"ל את משתמשת?</label>
-                                    <input type="checkbox" class="input_checkbox_style_two" >
-                                    <label > מטרנה צמחי</label><br>
-                                    <input type="checkbox" class="input_checkbox_style_two" >
-                                    <label > מטרנה מהדרין</label><br>
-                                    <input type="checkbox" class="input_checkbox_style_two" >
-                                    <label > מטרנה שלבים</label><br>
-                                    <input type="checkbox" class="input_checkbox_style_two" >
-                                    <label > דיסת דגנים</label><br>
-                                    <input type="checkbox" class="input_checkbox_style_two" >
-                                    <label > סימילאק</label>
+                                    <label class="title_che" for="ybaby_age">איזה ארוע יש לכם?</label>
+                                    <div class="input_label">
+                                    <input  type="radio" id="yes" name="baby_age" value="yes">
+                                  <label  for="yes">ברית</label>
+                            </div>
+                            <div class="input_label">
+                                <input  type="radio" id="yes" name="baby_age" value="yes">
+                              <label  for="yes">בר  מצווה</label>
+                        </div>
+                        <div class="input_label">
+                            <input  type="radio" id="yes" name="baby_age" value="yes">
+                          <label for="yes">בת - מצווה</label>
+                    </div>
+                    <div class="input_label">
+                        <input  type="radio" id="yes" name="baby_age" value="yes">
+                      <label for="yes">ארוסין</label>
+                </div>
+                <div class="input_label">
+                    <input  type="radio" id="yes" name="baby_age" value="yes">
+                  <label  for="yes">חתונה</label>
+            </div>
+            <div class="input_label">
+                <input  type="radio" id="yes" name="baby_age" value="yes">
+                <div class="else">
+                    <label  for="yes">אחר:</label>
+                    <input type="text" id="else" name="else" >
+                    </div>
+            </div>
                              </div>
+                            </div>
                 </div>  
                 </form>
                 <div class="box_button">
-                   <button class="button_style_four" (click)="open(mymodal)">אני רוצה לטוס</button>
+                   <button class="button_style_four" (click)="open(mymodal)">שדרגו לי את הארוע</button>
                 </div> 
                 </div>
                 <div class="col-md-1"></div>
@@ -114,13 +150,13 @@
         <div class="modal-body">
             <div class="lottie">
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_xoodg2kv.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player>
-            </div>
+<lottie-player src="https://assets2.lottiefiles.com/packages/lf20_sqqqoycp.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+</div>
+            <div class="bright">עשיתם את זה</div>
+           
             הטופס נשלח בהצלחה
             <br>
-            בהקדם ניצור איתכם קשר
-            <br>
-            (:לכו לארוז
-        </div>
+            ניצור איתכם קשר בהקדם
+          </div>
     </ng-template>
 </html>
