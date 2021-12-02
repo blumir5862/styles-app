@@ -1,0 +1,44 @@
+.fivestyle{
+    background-image: url("/assets/images/backgroun_five.png");
+    background-position: center; 
+    background-color: #000000;
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    text-align: right;		
+    color: #7BA0A8;
+    font-size: 18px;
+    padding-top: 45px;
+    direction: rtl;
+    padding-bottom: 2rem;
+}
+.logo{
+    text-align: center;	
+}
+input{
+    border: none;
+    border-bottom: 1px solid #BD9159;
+    color: #BD9159;
+    background-color: #000000;
+}
+label{
+    color: #BD9159; 
+}
+.number{
+    background-image:url("/assets/images/five_icon.png");
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 44px;
+    text-align: center;
+    padding-top: 3.5px;
+    margin-bottom: 32px;
+    color: #BD9159;
+    font-size: 22px;
+}
+@media screen and (max-width: 500px) {
+    .fivestyle{
+       height: 100%;
+       padding-top: 0px;
+    }
+}

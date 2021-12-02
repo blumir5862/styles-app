@@ -1,17 +1,14 @@
 .onestyle{
-    background-image: url("/assets/images/lg_one.png");
-	/* background-size: 100%; */
-	/* background-repeat: repeat-y; */
+  background-image: url("/assets/images/lg_one.png");
 	font-family: 'Varela Round', sans-serif;
 	text-align: right;	
 	color: #007178;
-    font-size: 18px;
-    /* height: 100vh; */
-    padding-top: 45px;
-    direction: rtl;
+  font-size: 18px;
+  padding-top: 45px;
+  direction: rtl;
 }
 .logo{
-    text-align: center;	  
+  text-align: center;	  
 }
 h1{
     color: #F3D489;
@@ -43,10 +40,6 @@ h2{
     padding-right: 15px;
 }
 .box_send{
-  /* background-color: #FEFEF1; */
-  /* box-shadow: 0px 3px 6px #00000029;
-  border-radius: 10px; */
-  /* height: 280px; */
   padding-top: 60px;
   padding-left: 30px;
   padding-right: 15px;
@@ -395,7 +388,7 @@ margin-top: 0.5rem;
 	padding: 5px 30px 5px 30px;
 	text-decoration: none;
 	margin-top: 2rem;
-
+  border: none;
 }
 @media screen and (max-width: 1491px) {
   .big_box{
@@ -417,6 +410,37 @@ margin-top: 0.5rem;
   .onestyle{
     background-image: url("/assets/images/md_one.png");
   }
+}
+/* הודעת הצלחה */
+.close{
+  border: none;
+  color: #007178;
+  font-size: 40px;
+  background-color: #FEFEF1;
+  line-height: 0.5;
+}
+
+.modal-header{
+  background-color: #FEFEF1;
+  border: none;
+}
+.modal-body{
+  background-color: #FEFEF1;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  color: #007178;
+  padding-bottom: 2rem;
+}
+.lottie{
+  background-image:url("/assets/images/lottie_background_styleone.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.modal.show .modal-dialog{
+  padding-top: 10rem;
 }
 
 
