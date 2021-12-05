@@ -1,0 +1,43 @@
+body{
+    direction: rtl;
+    text-align: center;
+    margin-top: 10rem;
+    font-family: 'Varela Round', sans-serif;
+}
+.links{
+    margin: 3rem;
+    border-radius: 15px;
+    text-decoration: none;
+}
+a{
+    padding: 1rem;
+    width: 138px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.onestyle{
+    color: #007178;
+    background-color: #FEFEF1;
+    border: 1px solid #007178;
+    width: 138px;
+}
+.twostyle{
+    color: #007178;
+    background-color: #E9E9E9;
+    border: 1px solid #567981;
+}
+.trheestyle{
+    color: #F1A321;
+    background-color: #ffffff;
+    border: 1px solid #F1A321;
+}
+.fourtyle{
+    color: #E24949;
+    background-color: #FBF5F5;
+    border: 1px solid #E24949;
+}
+.fivestyle{
+    color: black;
+    background-color: #ffd195;
+    border: 1px solid black;
+}
