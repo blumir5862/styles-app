@@ -14,11 +14,12 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { linksComponent } from './links/links.component';
 
 
 @NgModule({
   imports: [BrowserModule, FormsModule, RouterModule,AppRoutingModule, NgbModule],
-  declarations: [AppComponent,  onestyleComponent, twostyleComponent, threestyleComponent, fourstyleComponent, fivestyleComponent],
+  declarations: [AppComponent,  onestyleComponent, twostyleComponent, threestyleComponent, fourstyleComponent, fivestyleComponent, linksComponent],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

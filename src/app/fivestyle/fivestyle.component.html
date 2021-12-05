@@ -1,18 +1,17 @@
 <html>
     <head>
-        <title>סגנון רהיטים </title>
+        <title>סגנון שחור זהב </title>
     </head>
     <body>
         <div class="container-fluid fivestyle">
             <div class="row ">
-                <div class="col-md-12">
+                <div class="col-md-12 ">
                     <div class="logo">
                         <img src="/assets/images/five_logo.png" alt="logo">
                     </div>
                 </div>
-                <div class="col-md-1" style="width: 12.499999995%"></div>
-                <!-- <div class="col-md-1"></div> -->
-                <div class="col-md-3 ">
+                <div class="col-xl-1 d-none d-xl-block"></div>
+                <div class="col-xl-3 col-md-4">
                     <div class="number_label">
                         <div class="number">
                             1
@@ -28,14 +27,14 @@
                         <div class="number">
                             2
                         </div>
-                        <label for="email">האם את/ה נשוי/ה?</label>
+                        <label for="married">האם את/ה נשוי/ה?</label>
                     </div>  
                     <div class="custom_radio">
-                        <input type="radio" id="featured-1" name="featured" >
-                        <label class="radio_yes" for="featured-1">כן</label>
+                        <input type="radio" id="yesmarried" name="married" >
+                        <label class="radio_yes" for="yesmarried">כן</label>
                         <br>
-                        <input type="radio" id="featured-2" name="featured">
-                        <label for="featured-2">לא</label>
+                        <input type="radio" id="nomarried" name="married">
+                        <label for="nomarried">לא</label>
                         <br>
                     </div>
                     <hr>
@@ -50,13 +49,11 @@
                         <input type="number" id="number" name="number" >
                     </div>
                 </div>
-                <div class="col-md-3 height">
-                    <div class="number_label">
+                <div class="col-xl-3 col-md-4 height">
+                    <div class="number_label four">
                         <div class="number">
                             4
                         </div>
-                    
-                    <!-- <div class="box"> -->
                         <div class="sec-center"> 	
                             <input class="dropdown" type="checkbox" id="dropdown" name="dropdown"/>
                             <label class="for-dropdown" for="dropdown">איזה אוכל מועדף עליך?
@@ -73,14 +70,10 @@
                                    <option value="milky ">חלבי</option>
                                    <hr>
                                    <option value="fur">פרווה</option>
-                                   
-                                   
-                                   </div>
+                                </div>
                             </div>
                         </div>
-                    <!-- </div> -->
-                </div>
-                 
+                    </div>
                     <hr>
                     <div class="number_label"> 
                         <div class="number">
@@ -90,69 +83,81 @@
                     </div>  
                     <div class="checkbox">
                         <input type="checkbox" class="input_checkbox_style_two" >
-                        <label > מטרנה צמחי</label><br>
+                        <label > בשר בקר</label><br>
                         <input type="checkbox" class="input_checkbox_style_two" >
-                        <label > מטרנה מהדרין</label><br>
+                        <label > בשר עוף</label><br>
                         <input type="checkbox" class="input_checkbox_style_two" >
-                        <label > מטרנה שלבים</label><br>
+                        <label > לשון</label><br>
                         <input type="checkbox" class="input_checkbox_style_two" >
-                        <label > דיסת דגנים</label><br>
+                        <label > בשר הודו</label><br>
                         <input type="checkbox" class="input_checkbox_style_two" >
-                        <label > סימילאק</label>
-                 </div>
+                        <label >בשר כבש</label><br>
+                        <input type="checkbox" class="input_checkbox_style_two" >
+                        <label >חזה עוף</label>
+                    </div>
                     <hr>
                     <div class="number_label">
                         <div class="number">
                             6
                         </div>
-                        <label for="number">כמה ארוחות בשריות את/ה אוכל בשבוע?</label>
+                        <label for="number">כמה קילו בשר צורכים אצליכם בשבוע?</label>
                     </div>
                     <br> 
                     <div class="box">
                         <input class="number-wrapper" type="number" id="number" name="number" >
                     </div>
                 </div>
-                <div class="col-md-3 ">
-                    <div class="number_label">
+                <div class="col-xl-3 col-md-4 ">
+                    <div class="number_label"> 
                         <div class="number">
-                            1
+                            7
                         </div>
-                        <label for="email">מייל:</label>
-                    </div>
-                    <br> 
-                    <div class="box">
-                        <input type="email" id="email" name="email" >
+                        <label for="buyer">האם את/ה קונה אוכל בשרי מוכן?</label>
+                    </div>  
+                    <div class="custom_radio">
+                        <input type="radio" id="yesbuyer" name="buyer" >
+                        <label class="radio_yes" for="yesbuyer">כן</label>
+                        <br>
+                        <input type="radio" id="nobuyer" name="buyer">
+                        <label for="nobuyer">לא</label>
+                        <br>
                     </div>
                     <hr>
                     <div class="number_label"> 
                         <div class="number">
-                            2
+                            8
                         </div>
-                        <label for="email">האם את/ה נשוי/ה?</label>
+                        <label for="textarea">שתף אותנו באחד המתכונים הטובים שלך</label>
                     </div>  
-                    <div class="custom_radio">
-                        <input type="radio" id="featured-1" name="featured" >
-                        <label class="radio_yes" for="featured-1">כן</label>
-                        <br>
-                        <input type="radio" id="featured-2" name="featured">
-                        <label for="featured-2">לא</label>
-                        <br>
-                    </div>
+                    
+                    <textarea id="w3review" name="w3review" rows="4" cols="20">
+                    </textarea>
                     <hr>
-                    <div class="number_label">
-                        <div class="number">
-                            3
-                        </div>
-                        <label for="number">כמה ארוחות בשריות את/ה אוכל בשבוע?</label>
-                    </div>
-                    <br> 
-                    <div class="box">
-                        <input type="number" id="number" name="number" >
-                    </div>
+                   <div class="button">
+                        <button class="button_style_five" (click)="open(mymodal)">שלח טופס <link href='https://css.gg/arrow-left.css' rel='stylesheet'><i class="gg-arrow-left"></i></button>
+                   </div>
                 </div>
-                <div class="col-md-1" style="width: 12.499999995%"></div>
-                <!-- <div class="col-md-1"></div> -->
+                <div class="col-xl-1 d-none d-xl-block"></div>
             </div>
         </div>
     </body>
+    <ng-template #mymodal let-modal>
+        <div class="modal-header">
+           <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+             <span aria-hidden="true">×</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="lottie">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_urqsnzjn.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+            </div>
+            <br>
+            !הטופס נשלח בהצלחה
+            <br>
+            מודים על שיתוף הפעולה
+            <br>
+            (:בתאבון בארוחה הבאה 
+        </div>
+    </ng-template>
 </html>     

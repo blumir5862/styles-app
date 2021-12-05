@@ -6,6 +6,7 @@ import { twostyleComponent } from './twostyle/twostyle.component';
 import { threestyleComponent } from './threestyle/threestyle.component';
 import { fourstyleComponent } from './fourstyle/fourstyle.component';
 import { fivestyleComponent } from './fivestyle/fivestyle.component';
+import { linksComponent } from './links/links.component';
 
 const routes: Routes = [
   { path: 'onestyle', component: onestyleComponent, },
@@ -13,6 +14,8 @@ const routes: Routes = [
   { path: 'threestyle', component: threestyleComponent, },
   { path: 'fourstyle', component: fourstyleComponent, },
   { path: 'fivestyle', component: fivestyleComponent, },
+  { path: 'links', component: linksComponent, },
+  { path: '', redirectTo: 'links', pathMatch: 'full' },
 // { path: '**', component: NoneComponent }
 ];
 
