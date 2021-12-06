@@ -73,14 +73,7 @@ input[type="text"] {
   background-color: #FEFEF1;
   margin-top: 44px;
 }
-input[type="number"] {
-  border: none;
-  border-bottom: 1px solid #007178;
-  width: 100%;
-  height: 33px;
-  background-color: #FEFEF1;
-  margin-top: 44px;
-}
+
 input[type='radio']:after {
 	width: 15px;
 	height: 15px;
@@ -441,6 +434,83 @@ textarea{
 .modal.show .modal-dialog{
   padding-top: 10rem;
 }
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #FEFEF1 inset !important;
+}
+/* input[type=number] {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  padding: 0 8px;
+} */
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  cursor:pointer;
+  display:block;
+  width:8px;
+  color: #007178;
+  text-align:center;
+  position:relative;
+  
+}    
+input[type=number]:hover::-webkit-inner-spin-button { 
+  background: #eee url("/assets/images/arrowone.png") no-repeat 50% 50%;  
+  width: 15px;
+  height: 15px;
+  padding: 4px;
+  position: relative;
+  right: 4px;
+  background-color: #FEFEF1;
+  
+}
+input[type="number"] {
+  border: none;
+  border-bottom: 1px solid #007178;
+  width: 100%;
+  height: 33px;
+  background-color: #FEFEF1;
+  margin-top: 44px;
+}
+input:-webkit-autofill{
+  -webkit-text-fill-color: #007178 !important;
+}
+input{
+  color: #007178;
+}
+.else input{
+  color: #19ADB7;
+  border: none;
+  height: auto;
+  border-radius: 0px;
+  border-bottom: 1px solid #007178;
+  font-size: 18px;
+  padding-right: 0px;
+  background-color: #BCDCDE;
+  width: 100%;
+  margin-top: 0px;
+}
+.else label{
+  color: #19ADB7;
+  font-size: 16px;
+}
+.else{
+  padding-left: 1rem;
+  text-align: right; 
+  display: flex;
+}
+.else input:-webkit-autofill,
+.else input:-webkit-autofill:hover, 
+.else input:-webkit-autofill:focus, 
+.else input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #BCDCDE inset !important;
+}
+.else input:-webkit-autofill{
+  -webkit-text-fill-color: #19ADB7 !important;
+}
+
 
 
  

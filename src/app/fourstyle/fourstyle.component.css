@@ -350,3 +350,12 @@ input[type='radio']:checked:after {
 .bright{
   color: #7FB069;
 }
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #FBF5F5 inset !important;
+}
+input:-webkit-autofill{
+  -webkit-text-fill-color: #484A47 !important;
+}
