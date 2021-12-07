@@ -4,6 +4,9 @@ import { twostyleComponent } from './twostyle/twostyle.component';
 import { threestyleComponent } from './threestyle/threestyle.component';
 import { fourstyleComponent } from './fourstyle/fourstyle.component';
 import { fivestyleComponent } from './fivestyle/fivestyle.component';
+import { linksComponent } from './links/links.component';
+import { QuestionnairesComponent } from './questionnaires/questionnaires.component';
+import { HeaderComponent } from './header/header.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
@@ -14,12 +17,13 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { linksComponent } from './links/links.component';
+
+
 
 
 @NgModule({
   imports: [BrowserModule, FormsModule, RouterModule,AppRoutingModule, NgbModule],
-  declarations: [AppComponent,  onestyleComponent, twostyleComponent, threestyleComponent, fourstyleComponent, fivestyleComponent, linksComponent],
+  declarations: [AppComponent,  onestyleComponent, twostyleComponent, threestyleComponent, fourstyleComponent, fivestyleComponent, linksComponent, QuestionnairesComponent, HeaderComponent],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
