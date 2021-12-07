@@ -8,7 +8,7 @@ import { fourstyleComponent } from './fourstyle/fourstyle.component';
 import { fivestyleComponent } from './fivestyle/fivestyle.component';
 import { linksComponent } from './links/links.component';
 import { QuestionnairesComponent } from './questionnaires/questionnaires.component';
-import { HeaderComponent } from './header/header.component';
+import { navbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
   { path: 'onestyle', component: onestyleComponent, },
@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'fivestyle', component: fivestyleComponent, },
   { path: 'links', component: linksComponent, },
   { path: 'questionnaires', component: QuestionnairesComponent },
-  { path: 'header', component: HeaderComponent },
+  { path: 'navbar', component: navbarComponent },
   { path: '', redirectTo: 'links', pathMatch: 'full' },
 // { path: '**', component: NoneComponent }
 ];
